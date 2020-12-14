@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.day04.ui.tongpao.WelcomActivity">
+
+   <!-- <TextView
+        android:id="@+id/tv_dao"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:id="@+id/tv_goto"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="跳转"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:background="#00ff00"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--<TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:ems="1"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#272A5A"
+        android:textSize="26sp" />-->
+
+</RelativeLayout>
